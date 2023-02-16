@@ -8,11 +8,7 @@
   }
 
 
-
-/* Header , Footer */
-
-
-
+/* Header */
 
 
 /* Footer */
@@ -39,3 +35,15 @@ Footer {
   .footer #linkedin-icon{
     color: blue;
   }
+
+  /* Navbar  =========================================== */
+
+  /* Homepage */
+  .homepage .homepage-ty {
+    height: 300px;
+    width: 200px;
+    border: solid black 2px;
+  }
+
+
+  /* Work Experience ================================== */

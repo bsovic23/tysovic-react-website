@@ -2,6 +2,7 @@ import React from 'react';
 
 // Components
 import Header from './components/Header';
+import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 // Pages
@@ -12,6 +13,8 @@ function App() {
    <section class="application">
     <header>
       <Header />
+
+      <Navbar />
     </header>
 
     <main>
