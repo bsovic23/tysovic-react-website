@@ -45,5 +45,41 @@ Footer {
     border: solid black 2px;
   }
 
+  /* Skills ================================== */
+  
 
   /* Work Experience ================================== */
+  .work .work-pic {
+    height: 200px;
+    width: 200px;
+  }
+  .work .work-div {
+    margin: 20px;
+    justify-content: center;
+  }
+
+  .work .work-div div {
+    display: inline-block;
+  }
+
+  .work .work-div h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .work .work-div p {
+    background-color: gray;
+  }
+
+  .work #work-michigan {
+    background: linear-gradient(to bottom, #00274C, #FFCB05);
+  }
+
+  .work #work-miami {
+     background: linear-gradient(to bottom, white, teal);
+  }
+
+  .work #work-louisville {
+    background: linear-gradient(to bottom, red, white);
+  }
+

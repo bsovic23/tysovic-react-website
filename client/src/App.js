@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Components
 import Header from './components/Header';
@@ -7,24 +8,30 @@ import Footer from './components/Footer';
 
 // Pages
 import Homepage from './pages/Homepage';
+import Work from './pages/Work';
 
 function App() {
   return (
-   <section class="application">
-    <header>
-      <Header />
+    <Router>
+      <section class="application">
+        < Header />
 
-      <Navbar />
-    </header>
-
-    <main>
-      < Homepage />
-    </main>
-    
-    <footer>
-      < Footer />
-    </footer>
-   </section>
+        < Navbar />
+        <main>
+          <Routes>
+            <Route
+            path="/"
+            element={< Homepage />}
+            />
+            <Route
+            path="/work"
+            element={< Work />}
+            />
+          </Routes>
+        </main>
+        < Footer />
+      </section>
+    </Router>
   );
 }
 

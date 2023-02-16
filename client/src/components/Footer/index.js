@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { AiFillLinkedin } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return(
@@ -12,7 +13,7 @@ function Footer() {
                 <a href="www.google.com" target="_blank">< AiFillLinkedin class="icon" id="linkedin-icon"/></a>
             </div>
             <div class="footer-instructions">
-                <a href="#header">Click here to return to the top of the page</a>
+                <Link to="/">Click Here To Return To Homepage</Link>
             </div>
         </section>
     )
