@@ -3,10 +3,14 @@
     --colorOne: #675755e8;
 } 
   
-.application {
-    background-color: #1ac0aae8;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
 
+.application {
+  background-color: rgb(180, 154, 154);
+}
 
 /* Header */
 
@@ -37,6 +41,11 @@ Footer {
   }
 
   /* Navbar  =========================================== */
+  .navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 40px;
+  }
 
   /* Homepage */
   .homepage .homepage-ty {

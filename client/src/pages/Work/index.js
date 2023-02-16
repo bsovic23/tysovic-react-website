@@ -14,7 +14,12 @@ function Work() {
                 </div>
                 <div>
                     <h2>MICHIGAN</h2>
-                    <p>MICHIGAN WORK EXP PARAGRAPH</p>   
+                    <p>
+                        MM/DD/YYYY = MM/DD/YYYY
+                        <br />
+                        <br />
+                        MICHIGAN WORK EXP PARAGRAPH
+                    </p>   
                 </div>
             </div>
             <div class="work-div" id="work-miami">
@@ -27,7 +32,12 @@ function Work() {
                 </div>
                 <div>
                     <h2>MIAMI</h2>
-                    <p>MIAMI WORK EXP PARAGRAPH</p>
+                    <p>
+                        MM/DD/YYYY = MM/DD/YYYY
+                        <br />
+                        <br />
+                        MIAMI WORK EXP PARAGRAPH
+                    </p>
                 </div>
             </div>
             <div class="work-div" id="work-louisville">
@@ -40,7 +50,12 @@ function Work() {
                 </div>
                 <div>
                     <h2>LOUSIVILLE</h2>
-                    <p>LOUISVILLE WORK EXP PARAGRAPH</p>
+                    <p>
+                        MM/DD/YYYY = MM/DD/YYYY
+                        <br />
+                        <br />
+                        LOUISVILLE WORK EXP PARAGRAPH
+                    </p>
                 </div>
             </div>
         </section>
