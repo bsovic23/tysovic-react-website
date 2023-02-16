@@ -1,6 +1,41 @@
 /* Root */
-
+:root {
+    --colorOne: #675755e8;
+} 
+  
+.application {
+    background-color: #1ac0aae8;
+  }
 
 
 
 /* Header , Footer */
+
+
+
+
+
+/* Footer */
+Footer {
+    background-color: var(--colorOne);
+  }
+  
+  .footer .footer-instructions, .footer .footer-section-links,
+  .footer .footer-instructions a {
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .footer .icon {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+  }
+  
+  .footer #github-icon{
+    color: black;
+  }
+  
+  .footer #linkedin-icon{
+    color: blue;
+  }
