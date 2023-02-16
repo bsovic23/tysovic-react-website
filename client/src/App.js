@@ -10,6 +10,8 @@ import Footer from './components/Footer';
 import Homepage from './pages/Homepage';
 import Work from './pages/Work';
 import Skills from './pages/Skills';
+import About from './pages/About';
+import Resume from './pages/Resume';
 
 function App() {
   return (
@@ -25,12 +27,20 @@ function App() {
             element={< Homepage />}
             />
             <Route
+            path="/about"
+            element={< About />}
+            />
+            <Route
             path="/work"
             element={< Work />}
             />
             <Route
             path="/skills"
             element={< Skills />}
+            />
+            <Route
+            path="/resume"
+            element={< Resume />}
             />
           </Routes>
         </main>

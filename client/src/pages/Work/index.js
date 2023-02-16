@@ -4,6 +4,24 @@ function Work() {
     return(
         <section class="work">
             <h1>Work Experience</h1>
+            <div class="work-div" id="work-clemson">
+                <div>
+                    <img
+                        class="work-pic"
+                        src={require("../../images/ty-profile.png")}
+                        alt="ty sovic working at Clemson Football"
+                    />
+                </div>
+                <div>
+                    <h2>CLEMSON</h2>
+                    <p>
+                        MM/DD/YYYY = MM/DD/YYYY
+                        <br />
+                        <br />
+                        CLEMSON WORK EXP PARAGRAPH
+                    </p>
+                </div>
+            </div>
             <div class="work-div" id="work-michigan">
                 <div>
                     <img
