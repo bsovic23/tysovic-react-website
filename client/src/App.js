@@ -20,11 +20,11 @@ function App() {
         <main>
           <Routes>
             <Route
-            path="/"
+            path="/tysovic-react-website/"
             element={< Homepage />}
             />
             <Route
-            path="/work"
+            path="/tysovic-react-website/work"
             element={< Work />}
             />
           </Routes>
