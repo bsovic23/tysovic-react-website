@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tysovic-react-website/static/css/main.3f295603.css",
+    "main.js": "/tysovic-react-website/static/js/main.e363b04d.js",
+    "static/media/ty-louisville.jpg": "/tysovic-react-website/static/media/ty-louisville.bddfe648594fb3b7d193.jpg",
+    "static/media/ty-profile.png": "/tysovic-react-website/static/media/ty-profile.7f275d17cef24affa26a.png",
+    "static/media/ty-michigan.jpg": "/tysovic-react-website/static/media/ty-michigan.84cf66b219b976b893f8.jpg",
+    "static/media/ty-miami.jpg": "/tysovic-react-website/static/media/ty-miami.4811b973faad55549bae.jpg",
+    "index.html": "/tysovic-react-website/index.html",
+    "main.3f295603.css.map": "/tysovic-react-website/static/css/main.3f295603.css.map",
+    "main.e363b04d.js.map": "/tysovic-react-website/static/js/main.e363b04d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f295603.css",
+    "static/js/main.e363b04d.js"
+  ]
+}
